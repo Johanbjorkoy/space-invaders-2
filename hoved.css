@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Great+Vibes&family=Noto+Sans:wght@300;400;500;600;700;900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Scada:ital,wght@0,400;0,700;1,400;1,700&family=Sofia&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("bakgrunn.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+a {
+  font-family: "Scada";
+  color: black;
+  font-style: none;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Scada";
+}
+h2 {
+  font-family: "Scada";
+  padding: 10px;
+}
+p {
+  font-family: "Scada";
+  padding: 10px;
+}
+button {
+  font-family: "Scada";
+  padding: 10px;
+  border-radius: 6px;
+  border: 2px solid lightgray;
+}
+button:hover {
+  background-color: white;
+}
+label {
+  font-family: "Scada";
+  padding: 10px;
+}
+
+.modul {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modul-innhold {
+  background-color: #fefefe;
+  margin: 20% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 5px;
+  width: 20%;
+  text-align: center;
+  box-shadow: 0px 4px 10px lightgray;
+}
+
+#slutt-modul {
+  display: none;
+  margin-left: 40%;
+  background-color: #fefefe;
+  padding: 20px;
+  height: 240px;
+  border: 1px solid #888;
+  border-radius: 5px;
+  width: 20%;
+  text-align: center;
+  box-shadow: 0px 4px 10px lightgray;
+}
+
+#slutt-modul.active {
+  display: block;
+  margin-top: 250px;
+}

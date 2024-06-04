@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space-Invaders</title>
+    <link rel="stylesheet" href="hoved.css" />
+  </head>
+  <body>
+    <div id="start-modul" class="modul">
+      <div class="modul-innhold">
+        <h2>Velkommen til Space-Invaders</h2>
+        <p>Trykk start knappen!</p>
+        <label for="hastighet">Vanskelighetsgrad:</label>
+        <select id="hastighet">
+          <option value="10">Lett</option>
+          <option value="5">Medium</option>
+          <option value="1">Vanskelig</option>
+        </select>
+        <br /><br />
+        <button id="start-knapp">Start Spillet</button>
+        <br /><br />
+        <button id="hjem-knapp"><a href="index.html">Hjem</a></button>
+      </div>
+    </div>
+
+    <div id="slutt-modul" class="modul">
+      <h2>Haha, du døde!</h2>
+      <br />
+      <p id="insert-text"></p>
+      <button id="restartBtn">Restart</button>
+    </div>
+    <canvas></canvas>
+    <script src="hoved.js"></script>
+  </body>
+</html>

@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Great+Vibes&family=Noto+Sans:wght@300;400;500;600;700;900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Scada:ital,wght@0,400;0,700;1,400;1,700&family=Sofia&display=swap");
+
+body {
+  background-color: lightgray;
+  color: lightblue;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Scada";
+}
+
+header {
+  height: 90px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50px 50px 50px;
+  flex-direction: row;
+  background-color: lightgray;
+  color: darkcyan;
+  box-shadow: 2px 2px 10px lightslategray;
+  width: 100%;
+  z-index: 100;
+}
+
+a {
+  color: darkcyan;
+  text-decoration: none;
+  font-family: "Scada";
+}
+
+#hoved-header-div {
+  grid-column: 3/4;
+  font-size: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Scada";
+  font-weight: bold;
+}
+
+#div1 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  margin-left: 10px;
+}
+
+#div2 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  margin-left: 124px;
+}
+
+#hoved-div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 70px;
+  margin-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#første-info-div {
+  background-color: darkslategray;
+  box-shadow: 2px 2px 10px lightslategray;
+  border-radius: 6px;
+  height: 300px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+#andre-info-div {
+  background-color: darkcyan;
+  box-shadow: 2px 2px 10px lightslategray;
+  border-radius: 6px;
+  height: 490px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+#tredje-info-div {
+  background-color: darkslategray;
+  box-shadow: 2px 2px 10px lightslategray;
+  border-radius: 6px;
+  height: 410px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+#fjerde-info-div {
+  background-color: darkcyan;
+  box-shadow: 2px 2px 10px lightslategray;
+  border-radius: 6px;
+  height: 660px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+#kilder {
+  background-color: darkcyan;
+  width: 200px;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 10px lightslategray;
+}
+
+#kilde-tittel {
+  font-weight: bold;
+}
+
+@media (max-width: 1250px) {
+  #hoved-header-div {
+    font-size: 25px;
+  }
+
+  #div2 {
+    margin-left: 68px;
+  }
+}
